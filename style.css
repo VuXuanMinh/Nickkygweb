@@ -1,0 +1,97 @@
+/* Skip link styling */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Nav styling */
+nav {
+    display: inline-block;
+    width: 80%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+/* Grid styling */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 20px;
+    margin-top: 20px;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Flex styling */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.flex img {
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
